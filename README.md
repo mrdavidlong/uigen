@@ -2,6 +2,8 @@
 
 AI-powered React component generator with live preview.
 
+![UIGen Screenshot](./images/uigen_screenshot.png)
+
 ## Prerequisites
 
 - Node.js 18+

@@ -42,6 +42,14 @@ This command will:
 - Generate Prisma client
 - Run database migrations
 
+4. 
+
+To add the Playwright server to Claude Code, run this command in your terminal (not inside Claude Code):
+
+```bash
+claude mcp add playwright npx @playwright/mcp@latest
+```
+
 ## Running the Application
 
 ### Development

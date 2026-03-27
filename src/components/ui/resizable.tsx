@@ -13,6 +13,7 @@ function ResizablePanelGroup({
   return (
     <ResizablePrimitive.PanelGroup
       data-slot="resizable-panel-group"
+      suppressHydrationWarning
       className={cn(
         "flex h-full w-full data-[panel-group-direction=vertical]:flex-col",
         className
@@ -25,7 +26,7 @@ function ResizablePanelGroup({
 function ResizablePanel({
   ...props
 }: React.ComponentProps<typeof ResizablePrimitive.Panel>) {
-  return <ResizablePrimitive.Panel data-slot="resizable-panel" {...props} />
+  return <ResizablePrimitive.Panel data-slot="resizable-panel" suppressHydrationWarning {...props} />
 }
 
 function ResizableHandle({
